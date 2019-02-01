@@ -1,5 +1,6 @@
 class CreateCostumes ActiveRecord::Migration[5.1]
-  def create_table
+  def change
+    create_table :costumes
     
 
 # Create a class and inherit from ActiveRecord::Migration
